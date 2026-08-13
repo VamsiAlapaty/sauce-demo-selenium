@@ -60,9 +60,3 @@ pytest tests/test_login.py      # run a single file
 - [x] Core flows: login (valid/invalid/locked-out), cart, checkout, sort
 - [x] pytest fixtures + parametrized data-driven tests
 - [x] GitHub Actions CI on every push
-- [ ] Playwright rebuild (pass two)
-
-## Next: Playwright pass
-Same test scenarios, rebuilt in Playwright's sync API, to demonstrate framework range —
-Selenium is still the enterprise standard, Playwright is where new hiring demand is
-concentrated.
